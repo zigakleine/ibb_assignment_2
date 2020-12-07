@@ -91,9 +91,9 @@ if __name__ == "__main__":
 
     img_num = 1
 
-    left_ear_cascade = cv2.CascadeClassifier('./haarcascades2/haarcascade_mcs_leftear.xml')
+    left_ear_cascade = cv2.CascadeClassifier('./haarcascades/haarcascade_mcs_leftear.xml')
 
-    right_ear_cascade = cv2.CascadeClassifier('./haarcascades2/haarcascade_mcs_rightear.xml')
+    right_ear_cascade = cv2.CascadeClassifier('./haarcascades/haarcascade_mcs_rightear.xml')
 
     face_cascade_1 = cv2.CascadeClassifier('./haarcascades/haarcascade_profileface.xml')
     face_cascade_2 = cv2.CascadeClassifier('./haarcascades/haarcascade_frontalface_default.xml')
