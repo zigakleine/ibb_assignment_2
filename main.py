@@ -186,7 +186,7 @@ if __name__ == "__main__":
 
     print("precision", precision)
     print("recall", recall )
-    print("f score", (precision*recall)/(precision + recall))
+    print("f score", 2*(precision*recall)/(precision + recall))
 
 
 
